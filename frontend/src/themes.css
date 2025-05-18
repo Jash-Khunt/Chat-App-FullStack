@@ -1,0 +1,482 @@
+/* src/styles/themes.css */
+@layer base {
+  :root, .light {
+    --primary: 220 56% 48%;
+    --primary-content: 0 0% 100%;
+    --secondary: 314 47% 53%;
+    --secondary-content: 0 0% 100%;
+    --accent: 169 60% 44%;
+    --accent-content: 0 0% 100%;
+    --neutral: 219 14% 28%;
+    --neutral-content: 0 0% 100%;
+    --base-100: 0 0% 100%;
+    --base-200: 210 20% 98%;
+    --base-300: 216 12% 84%;
+    --base-content: 215 28% 17%;
+  }
+
+  .dark {
+    --primary: 217 91% 60%;
+    --primary-content: 0 0% 100%;
+    --secondary: 315 60% 65%;
+    --secondary-content: 0 0% 100%;
+    --accent: 170 70% 49%;
+    --accent-content: 0 0% 100%;
+    --neutral: 215 28% 17%;
+    --neutral-content: 210 40% 98%;
+    --base-100: 222 47% 11%;
+    --base-200: 222 47% 15%;
+    --base-300: 222 47% 20%;
+    --base-content: 210 40% 98%;
+  }
+
+  .cupcake {
+    --primary: 183 47% 59%;
+    --primary-content: 0 0% 100%;
+    --secondary: 338 71% 72%;
+    --secondary-content: 0 0% 100%;
+    --accent: 39 88% 66%;
+    --accent-content: 0 0% 100%;
+    --neutral: 180 2% 88%;
+    --neutral-content: 180 3% 20%;
+    --base-100: 180 27% 98%;
+    --base-200: 180 22% 95%;
+    --base-300: 180 20% 92%;
+    --base-content: 180 3% 20%;
+  }
+
+  .bumblebee {
+    --primary: 45 93% 47%;
+    --primary-content: 0 0% 0%;
+    --secondary: 45 93% 47%;
+    --secondary-content: 0 0% 0%;
+    --accent: 45 93% 47%;
+    --accent-content: 0 0% 0%;
+    --neutral: 45 10% 92%;
+    --neutral-content: 45 15% 20%;
+    --base-100: 45 33% 99%;
+    --base-200: 45 25% 97%;
+    --base-300: 45 20% 95%;
+    --base-content: 45 15% 20%;
+  }
+
+  .emerald {
+    --primary: 160 84% 39%;
+    --primary-content: 0 0% 100%;
+    --secondary: 160 84% 39%;
+    --secondary-content: 0 0% 100%;
+    --accent: 160 84% 39%;
+    --accent-content: 0 0% 100%;
+    --neutral: 160 10% 92%;
+    --neutral-content: 160 15% 20%;
+    --base-100: 160 33% 99%;
+    --base-200: 160 25% 97%;
+    --base-300: 160 20% 95%;
+    --base-content: 160 15% 20%;
+  }
+
+  .corporate {
+    --primary: 220 89% 56%;
+    --primary-content: 0 0% 100%;
+    --secondary: 220 89% 56%;
+    --secondary-content: 0 0% 100%;
+    --accent: 220 89% 56%;
+    --accent-content: 0 0% 100%;
+    --neutral: 220 10% 92%;
+    --neutral-content: 220 15% 20%;
+    --base-100: 220 33% 99%;
+    --base-200: 220 25% 97%;
+    --base-300: 220 20% 95%;
+    --base-content: 220 15% 20%;
+  }
+
+  .synthwave {
+    --primary: 321 100% 50%;
+    --primary-content: 0 0% 100%;
+    --secondary: 198 93% 60%;
+    --secondary-content: 0 0% 100%;
+    --accent: 47 100% 50%;
+    --accent-content: 0 0% 0%;
+    --neutral: 260 50% 18%;
+    --neutral-content: 260 100% 85%;
+    --base-100: 260 60% 12%;
+    --base-200: 260 55% 15%;
+    --base-300: 260 50% 18%;
+    --base-content: 260 100% 85%;
+  }
+
+  .retro {
+    --primary: 6 78% 57%;
+    --primary-content: 0 0% 100%;
+    --secondary: 46 87% 56%;
+    --secondary-content: 0 0% 0%;
+    --accent: 180 69% 43%;
+    --accent-content: 0 0% 100%;
+    --neutral: 45 10% 92%;
+    --neutral-content: 45 15% 20%;
+    --base-100: 45 33% 99%;
+    --base-200: 45 25% 97%;
+    --base-300: 45 20% 95%;
+    --base-content: 45 15% 20%;
+  }
+
+  .cyberpunk {
+    --primary: 56 100% 50%;
+    --primary-content: 0 0% 0%;
+    --secondary: 310 100% 50%;
+    --secondary-content: 0 0% 100%;
+    --accent: 190 100% 50%;
+    --accent-content: 0 0% 0%;
+    --neutral: 0 0% 85%;
+    --neutral-content: 0 0% 20%;
+    --base-100: 0 0% 100%;
+    --base-200: 0 0% 95%;
+    --base-300: 0 0% 90%;
+    --base-content: 0 0% 20%;
+  }
+
+  .valentine {
+    --primary: 351 86% 71%;
+    --primary-content: 0 0% 100%;
+    --secondary: 351 86% 71%;
+    --secondary-content: 0 0% 100%;
+    --accent: 351 86% 71%;
+    --accent-content: 0 0% 100%;
+    --neutral: 351 10% 92%;
+    --neutral-content: 351 15% 20%;
+    --base-100: 351 33% 99%;
+    --base-200: 351 25% 97%;
+    --base-300: 351 20% 95%;
+    --base-content: 351 15% 20%;
+  }
+
+  .halloween {
+    --primary: 25 95% 53%;
+    --primary-content: 0 0% 100%;
+    --secondary: 0 74% 42%;
+    --secondary-content: 0 0% 100%;
+    --accent: 46 100% 50%;
+    --accent-content: 0 0% 0%;
+    --neutral: 0 0% 15%;
+    --neutral-content: 0 0% 85%;
+    --base-100: 0 0% 11%;
+    --base-200: 0 0% 13%;
+    --base-300: 0 0% 15%;
+    --base-content: 0 0% 85%;
+  }
+
+  .garden {
+    --primary: 141 50% 53%;
+    --primary-content: 0 0% 100%;
+    --secondary: 55 50% 53%;
+    --secondary-content: 0 0% 0%;
+    --accent: 70 50% 53%;
+    --accent-content: 0 0% 0%;
+    --neutral: 140 10% 92%;
+    --neutral-content: 140 15% 20%;
+    --base-100: 140 33% 99%;
+    --base-200: 140 25% 97%;
+    --base-300: 140 20% 95%;
+    --base-content: 140 15% 20%;
+  }
+
+  .forest {
+    --primary: 142 76% 36%;
+    --primary-content: 0 0% 100%;
+    --secondary: 142 76% 36%;
+    --secondary-content: 0 0% 100%;
+    --accent: 142 76% 36%;
+    --accent-content: 0 0% 100%;
+    --neutral: 143 10% 15%;
+    --neutral-content: 143 100% 85%;
+    --base-100: 143 65% 8%;
+    --base-200: 143 60% 10%;
+    --base-300: 143 55% 12%;
+    --base-content: 143 100% 85%;
+  }
+
+  .aqua {
+    --primary: 171 100% 41%;
+    --primary-content: 0 0% 100%;
+    --secondary: 191 100% 41%;
+    --secondary-content: 0 0% 100%;
+    --accent: 211 100% 41%;
+    --accent-content: 0 0% 100%;
+    --neutral: 200 10% 92%;
+    --neutral-content: 200 15% 20%;
+    --base-100: 200 33% 99%;
+    --base-200: 200 25% 97%;
+    --base-300: 200 20% 95%;
+    --base-content: 200 15% 20%;
+  }
+
+  .lofi {
+    --primary: 0 0% 0%;
+    --primary-content: 0 0% 100%;
+    --secondary: 0 0% 0%;
+    --secondary-content: 0 0% 100%;
+    --accent: 0 0% 0%;
+    --accent-content: 0 0% 100%;
+    --neutral: 0 0% 85%;
+    --neutral-content: 0 0% 20%;
+    --base-100: 0 0% 100%;
+    --base-200: 0 0% 95%;
+    --base-300: 0 0% 90%;
+    --base-content: 0 0% 20%;
+  }
+
+  .pastel {
+    --primary: 200 100% 77%;
+    --primary-content: 0 0% 20%;
+    --secondary: 260 100% 85%;
+    --secondary-content: 0 0% 20%;
+    --accent: 320 100% 85%;
+    --accent-content: 0 0% 20%;
+    --neutral: 0 0% 92%;
+    --neutral-content: 0 0% 20%;
+    --base-100: 0 0% 100%;
+    --base-200: 0 0% 98%;
+    --base-300: 0 0% 96%;
+    --base-content: 0 0% 20%;
+  }
+
+  .fantasy {
+    --primary: 240 100% 50%;
+    --primary-content: 0 0% 100%;
+    --secondary: 300 100% 50%;
+    --secondary-content: 0 0% 100%;
+    --accent: 180 100% 50%;
+    --accent-content: 0 0% 0%;
+    --neutral: 0 0% 92%;
+    --neutral-content: 0 0% 20%;
+    --base-100: 0 0% 100%;
+    --base-200: 0 0% 98%;
+    --base-300: 0 0% 96%;
+    --base-content: 0 0% 20%;
+  }
+
+  .wireframe {
+    --primary: 0 0% 0%;
+    --primary-content: 0 0% 100%;
+    --secondary: 0 0% 0%;
+    --secondary-content: 0 0% 100%;
+    --accent: 0 0% 0%;
+    --accent-content: 0 0% 100%;
+    --neutral: 0 0% 85%;
+    --neutral-content: 0 0% 20%;
+    --base-100: 0 0% 100%;
+    --base-200: 0 0% 95%;
+    --base-300: 0 0% 90%;
+    --base-content: 0 0% 20%;
+  }
+
+  .black {
+    --primary: 0 0% 100%;
+    --primary-content: 0 0% 0%;
+    --secondary: 0 0% 100%;
+    --secondary-content: 0 0% 0%;
+    --accent: 0 0% 100%;
+    --accent-content: 0 0% 0%;
+    --neutral: 0 0% 15%;
+    --neutral-content: 0 0% 85%;
+    --base-100: 0 0% 0%;
+    --base-200: 0 0% 5%;
+    --base-300: 0 0% 10%;
+    --base-content: 0 0% 85%;
+  }
+
+  .luxury {
+    --primary: 0 0% 100%;
+    --primary-content: 0 0% 0%;
+    --secondary: 0 0% 100%;
+    --secondary-content: 0 0% 0%;
+    --accent: 0 0% 100%;
+    --accent-content: 0 0% 0%;
+    --neutral: 0 0% 15%;
+    --neutral-content: 0 0% 85%;
+    --base-100: 0 0% 0%;
+    --base-200: 0 0% 5%;
+    --base-300: 0 0% 10%;
+    --base-content: 0 0% 85%;
+  }
+
+  .dracula {
+    --primary: 326 100% 74%;
+    --primary-content: 0 0% 0%;
+    --secondary: 265 89% 78%;
+    --secondary-content: 0 0% 0%;
+    --accent: 31 100% 71%;
+    --accent-content: 0 0% 0%;
+    --neutral: 225 14% 16%;
+    --neutral-content: 225 100% 85%;
+    --base-100: 231 15% 18%;
+    --base-200: 231 15% 20%;
+    --base-300: 231 15% 22%;
+    --base-content: 225 100% 85%;
+  }
+
+  .cmyk {
+    --primary: 221 100% 50%;
+    --primary-content: 0 0% 100%;
+    --secondary: 322 100% 50%;
+    --secondary-content: 0 0% 100%;
+    --accent: 47 100% 50%;
+    --accent-content: 0 0% 0%;
+    --neutral: 0 0% 92%;
+    --neutral-content: 0 0% 20%;
+    --base-100: 0 0% 100%;
+    --base-200: 0 0% 98%;
+    --base-300: 0 0% 96%;
+    --base-content: 0 0% 20%;
+  }
+
+  .autumn {
+    --primary: 14 100% 57%;
+    --primary-content: 0 0% 100%;
+    --secondary: 14 100% 57%;
+    --secondary-content: 0 0% 100%;
+    --accent: 14 100% 57%;
+    --accent-content: 0 0% 100%;
+    --neutral: 14 10% 92%;
+    --neutral-content: 14 15% 20%;
+    --base-100: 14 33% 99%;
+    --base-200: 14 25% 97%;
+    --base-300: 14 20% 95%;
+    --base-content: 14 15% 20%;
+  }
+
+  .business {
+    --primary: 0 0% 100%;
+    --primary-content: 0 0% 0%;
+    --secondary: 0 0% 100%;
+    --secondary-content: 0 0% 0%;
+    --accent: 0 0% 100%;
+    --accent-content: 0 0% 0%;
+    --neutral: 0 0% 15%;
+    --neutral-content: 0 0% 85%;
+    --base-100: 0 0% 0%;
+    --base-200: 0 0% 5%;
+    --base-300: 0 0% 10%;
+    --base-content: 0 0% 85%;
+  }
+
+  .acid {
+    --primary: 74 100% 50%;
+    --primary-content: 0 0% 0%;
+    --secondary: 74 100% 50%;
+    --secondary-content: 0 0% 0%;
+    --accent: 74 100% 50%;
+    --accent-content: 0 0% 0%;
+    --neutral: 74 10% 92%;
+    --neutral-content: 74 15% 20%;
+    --base-100: 74 33% 99%;
+    --base-200: 74 25% 97%;
+    --base-300: 74 20% 95%;
+    --base-content: 74 15% 20%;
+  }
+
+  .lemonade {
+    --primary: 74 100% 50%;
+    --primary-content: 0 0% 0%;
+    --secondary: 74 100% 50%;
+    --secondary-content: 0 0% 0%;
+    --accent: 74 100% 50%;
+    --accent-content: 0 0% 0%;
+    --neutral: 74 10% 92%;
+    --neutral-content: 74 15% 20%;
+    --base-100: 74 33% 99%;
+    --base-200: 74 25% 97%;
+    --base-300: 74 20% 95%;
+    --base-content: 74 15% 20%;
+  }
+
+  .night {
+    --primary: 217 91% 60%;
+    --primary-content: 0 0% 100%;
+    --secondary: 315 60% 65%;
+    --secondary-content: 0 0% 100%;
+    --accent: 170 70% 49%;
+    --accent-content: 0 0% 100%;
+    --neutral: 215 28% 17%;
+    --neutral-content: 210 40% 98%;
+    --base-100: 222 47% 11%;
+    --base-200: 222 47% 15%;
+    --base-300: 222 47% 20%;
+    --base-content: 210 40% 98%;
+  }
+
+  .coffee {
+    --primary: 25 34% 39%;
+    --primary-content: 60 9% 98%;
+    --secondary: 30 13% 82%;
+    --secondary-content: 24 10% 10%;
+    --accent: 30 13% 82%;
+    --accent-content: 24 10% 10%;
+    --neutral: 32 15% 72%;
+    --neutral-content: 24 10% 10%;
+    --base-100: 30 20% 94%;
+    --base-200: 30 15% 90%;
+    --base-300: 30 10% 85%;
+    --base-content: 20 8% 10%;
+  }
+
+  .winter {
+    --primary: 212 100% 48%;
+    --primary-content: 0 0% 100%;
+    --secondary: 212 100% 48%;
+    --secondary-content: 0 0% 100%;
+    --accent: 212 100% 48%;
+    --accent-content: 0 0% 100%;
+    --neutral: 212 10% 92%;
+    --neutral-content: 212 15% 20%;
+    --base-100: 212 33% 99%;
+    --base-200: 212 25% 97%;
+    --base-300: 212 20% 95%;
+    --base-content: 212 15% 20%;
+  }
+
+  .dim {
+    --primary: 217 91% 60%;
+    --primary-content: 0 0% 100%;
+    --secondary: 315 60% 65%;
+    --secondary-content: 0 0% 100%;
+    --accent: 170 70% 49%;
+    --accent-content: 0 0% 100%;
+    --neutral: 215 28% 17%;
+    --neutral-content: 210 40% 98%;
+    --base-100: 222 47% 11%;
+    --base-200: 222 47% 15%;
+    --base-300: 222 47% 20%;
+    --base-content: 210 40% 98%;
+  }
+
+  .nord {
+    --primary: 213 32% 52%;
+    --primary-content: 0 0% 100%;
+    --secondary: 220 24% 32%;
+    --secondary-content: 0 0% 100%;
+    --accent: 179 25% 65%;
+    --accent-content: 0 0% 0%;
+    --neutral: 220 16% 22%;
+    --neutral-content: 220 100% 85%;
+    --base-100: 220 17% 17%;
+    --base-200: 220 17% 20%;
+    --base-300: 220 17% 23%;
+    --base-content: 220 100% 85%;
+  }
+
+  .sunset {
+    --primary: 14 100% 57%;
+    --primary-content: 0 0% 100%;
+    --secondary: 322 100% 50%;
+    --secondary-content: 0 0% 100%;
+    --accent: 47 100% 50%;
+    --accent-content: 0 0% 0%;
+    --neutral: 0 0% 15%;
+    --neutral-content: 0 0% 85%;
+    --base-100: 0 0% 11%;
+    --base-200: 0 0% 13%;
+    --base-300: 0 0% 15%;
+    --base-content: 0 0% 85%;
+  }
+}
